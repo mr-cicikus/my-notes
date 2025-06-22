@@ -43,7 +43,7 @@ Bu dosya JWT üretimi ve doğrulamasıyla ilgili iki temel işlevi barındırır
 - Backend’den dönen JWT, `SharedPreferences` ile cihazda yerel olarak saklanır:
   
 ```dart
-  await prefs.setString('jwt_token', token);`
+  await prefs.setString('jwt_token', token);
 ```
 
 ### Korunan Rotalara Erişim:

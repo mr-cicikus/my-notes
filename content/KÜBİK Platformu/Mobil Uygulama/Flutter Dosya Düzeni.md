@@ -3,7 +3,8 @@
 └── kubik_mobile/
     ├── android
     ├── ios
-    ├── lib
+    ├── lib/
+    │   └── main.dart
     ├── test
     └── pubspec.yaml
 ```
