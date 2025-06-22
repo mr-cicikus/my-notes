@@ -1,0 +1,103 @@
+{
+	"nodes":[
+		{"id":"743ef6239630b76b","type":"text","text":"### Flutter Frontend","x":-540,"y":20,"width":250,"height":60,"color":"5"},
+		{"id":"734da1d1669b837e","type":"text","text":"jwt_utils.py","x":-180,"y":-160,"width":250,"height":60},
+		{"id":"f922b806b3a837eb","type":"text","text":"Giriş Düğmesi -> Text Kutuları -> \"Submit\"","x":-540,"y":260,"width":250,"height":60},
+		{"id":"ef77fa9c4f010d06","type":"text","text":"/login endpoint (örn: \nhttp://192.168.1.7:8000/login\n)\n","x":-215,"y":400,"width":320,"height":100},
+		{"id":"29f57277f4a30f9e","type":"text","text":"Error (Kullanıcı Yok / Yanlış Şifre)","x":-790,"y":760,"width":250,"height":60,"color":"1"},
+		{
+			"id":"01d9b94033436d33",
+			"type":"text",
+			"text":"# FastAPI Python Backend",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-215,
+			"y":50,
+			"width":320,
+			"height":120
+		},
+		{"id":"d264a52cca545b6c","type":"text","text":"### PostgreSQL Ana Veri Tabanı","x":951,"y":65,"width":355,"height":90},
+		{"id":"9407afd72292d4c4","type":"text","text":"Kullanıcı var mı?","x":1004,"y":570,"width":250,"height":60},
+		{"id":"7b646d5334941b2b","type":"text","text":"Girilen şifre hash'i ile veri tabanındanki şifre aynı mı?","x":361,"y":515,"width":250,"height":110},
+		{"id":"a5a8a17e126d14d6","type":"text","text":"Evet","x":1005,"y":400,"width":250,"height":60,"color":"5"},
+		{"id":"0f463f6b028dbac9","type":"text","text":"##### PostgreSQL Güvenlik Veri Tabanı","x":991,"y":220,"width":275,"height":90},
+		{"id":"65307c0572499503","type":"text","text":"password_utils.py","x":360,"y":235,"width":250,"height":60},
+		{"id":"e4eba074fb6fa18f","type":"text","text":"Evet","x":180,"y":340,"width":125,"height":60,"color":"4"},
+		{"id":"48be5e477a50861f","type":"text","text":"Hayır","x":423,"y":760,"width":124,"height":60,"color":"1"},
+		{"id":"4cbbb16f67d7d7a1","type":"text","text":"Flutter shared_prefs ve session storage","x":-540,"y":-300,"width":250,"height":60},
+		{
+			"id":"27ca2c013aebe23a",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1600,
+			"y":340,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[
+		{"id":"2184cf81bc137b08","fromNode":"ef77fa9c4f010d06","fromSide":"top","toNode":"01d9b94033436d33","toSide":"bottom","color":"5","label":"Girilen Bilgiler"},
+		{"id":"18a7610738327723","fromNode":"743ef6239630b76b","fromSide":"bottom","toNode":"f922b806b3a837eb","toSide":"top","color":"5","label":"Başlangıç Ekranı"},
+		{"id":"a710f3e37228c4e4","fromNode":"f922b806b3a837eb","fromSide":"bottom","toNode":"ef77fa9c4f010d06","toSide":"left","color":"5","label":"Girilen Bilgiler\n(Kullanıcı + Şifre)"},
+		{"id":"53cc599460fbd01d","fromNode":"01d9b94033436d33","fromSide":"right","toNode":"d264a52cca545b6c","toSide":"left","color":"5","label":"kullanıcı varlığı doğrulama"},
+		{
+			"id":"da7e7d901f31fa78",
+			"toFloating":false,
+			"styleAttributes":{
+				"path":null,
+				"arrow":"circle-outline"
+			},
+			"fromNode":"29f57277f4a30f9e",
+			"fromSide":"top",
+			"toNode":"743ef6239630b76b",
+			"toSide":"left",
+			"color":"1",
+			"label":"Error Bilgisi \nHTTP 401"
+		},
+		{"id":"153658ebe719b3e0","fromNode":"d264a52cca545b6c","fromSide":"right","toNode":"9407afd72292d4c4","toSide":"right","color":"5","label":"Girilen Bilgiler"},
+		{"id":"7935f78425815b9d","fromNode":"0f463f6b028dbac9","fromSide":"left","toNode":"65307c0572499503","toSide":"right","color":"5","label":"secure_key ile pw_hash"},
+		{"id":"f9659dbeae34ac31","toFloating":false,"fromNode":"7b646d5334941b2b","fromSide":"bottom","toNode":"48be5e477a50861f","toSide":"top","color":"1"},
+		{"id":"dee1997dde8c4a38","fromNode":"48be5e477a50861f","fromSide":"left","toNode":"29f57277f4a30f9e","toSide":"right","color":"1"},
+		{"id":"9ec5c73e27dccef7","fromNode":"9407afd72292d4c4","fromSide":"bottom","toNode":"48be5e477a50861f","toSide":"right","color":"1"},
+		{"id":"145c7414ac916b41","fromNode":"9407afd72292d4c4","fromSide":"top","toNode":"a5a8a17e126d14d6","toSide":"bottom","color":"5","label":"Girilen Bilgiler"},
+		{"id":"8c74cf7f07280d8f","fromNode":"a5a8a17e126d14d6","fromSide":"top","toNode":"0f463f6b028dbac9","toSide":"bottom","color":"5","label":"Girilen Kullanıcı "},
+		{"id":"48c492706154a0a8","fromNode":"a5a8a17e126d14d6","fromSide":"left","toNode":"65307c0572499503","toSide":"right","color":"5","label":"Girilen Şifre"},
+		{"id":"a29f31b1eed332b7","fromNode":"65307c0572499503","fromSide":"bottom","toNode":"7b646d5334941b2b","toSide":"top","color":"5"},
+		{"id":"1ca44b7fae53dfc7","fromNode":"7b646d5334941b2b","fromSide":"left","toNode":"e4eba074fb6fa18f","toSide":"bottom","color":"4"},
+		{
+			"id":"953c61a8ba435066",
+			"toFloating":false,
+			"styleAttributes":{
+				"pathfindingMethod":null,
+				"arrow":"triangle-outline"
+			},
+			"fromFloating":false,
+			"fromNode":"e4eba074fb6fa18f",
+			"fromSide":"top",
+			"toNode":"01d9b94033436d33",
+			"toSide":"right",
+			"color":"4",
+			"label":"Şifre Doğru"
+		},
+		{"id":"2960ba6d0d3f04a4","fromNode":"01d9b94033436d33","fromSide":"top","toNode":"734da1d1669b837e","toSide":"bottom","color":"4","label":"Kullanıcı Bilgileri"},
+		{"id":"6f625943c6cedc2a","fromNode":"734da1d1669b837e","fromSide":"left","toNode":"4cbbb16f67d7d7a1","toSide":"right","color":"4","label":"JWT Token"},
+		{"id":"8ab18c05dc0291fa","fromNode":"01d9b94033436d33","fromSide":"top","toNode":"4cbbb16f67d7d7a1","toSide":"bottom","color":"4"},
+		{
+			"id":"67452a0e13279e2c",
+			"toFloating":false,
+			"styleAttributes":{
+				"arrow":null
+			},
+			"fromNode":"4cbbb16f67d7d7a1",
+			"fromSide":"left",
+			"toNode":"743ef6239630b76b",
+			"toSide":"left",
+			"color":"4",
+			"label":"Başarılı Giriş\nHTTP 200"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
