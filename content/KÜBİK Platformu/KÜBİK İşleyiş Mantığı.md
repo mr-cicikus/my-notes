@@ -1,0 +1,4 @@
+
+![[KÜBİK İşleyiş Şeması.png]]
+
+
