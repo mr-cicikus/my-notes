@@ -26,7 +26,7 @@
 		{"id":"4cbbb16f67d7d7a1","type":"text","text":"Flutter shared_prefs ve session storage","x":-540,"y":-300,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"2184cf81bc137b08","fromNode":"ef77fa9c4f010d06","fromSide":"top","toNode":"01d9b94033436d33","toSide":"bottom","color":"5","label":"Girilen Bilgiler"},
+		{"id":"2184cf81bc137b08","toFloating":false,"fromNode":"ef77fa9c4f010d06","fromSide":"top","toNode":"01d9b94033436d33","toSide":"bottom","color":"5","label":"Girilen Bilgiler"},
 		{"id":"18a7610738327723","fromNode":"743ef6239630b76b","fromSide":"bottom","toNode":"f922b806b3a837eb","toSide":"top","color":"5","label":"Başlangıç Ekranı"},
 		{"id":"a710f3e37228c4e4","fromNode":"f922b806b3a837eb","fromSide":"bottom","toNode":"ef77fa9c4f010d06","toSide":"left","color":"5","label":"Girilen Bilgiler\n(Kullanıcı + Şifre)"},
 		{"id":"53cc599460fbd01d","fromNode":"01d9b94033436d33","fromSide":"right","toNode":"d264a52cca545b6c","toSide":"left","color":"5","label":"kullanıcı varlığı doğrulama"},
