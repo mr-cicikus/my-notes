@@ -1,4 +1,4 @@
 ---
-title: Welcome to Quartz
+title: KÜBİK Kılavuz
 ---
-This is a blank Quartz installation.
+Hoş geldiniz.
