@@ -1,4 +1,8 @@
+---
 
+---
+- [ ] Tamamlanacaklar: [[Frontend'te Yapılacaklar]] , 1. Başlık
+---
 # 0. Uygulama Başlangıcı
 
 Öncelikle Flutter'ın yerel deposu olan `SharedPreferences`'ta bir [[JWT (JSON Web Token)]] olup olmadığı kontrol edilmeli. Eğer var ise, JWT'nin geçerliliği sunucu tarafından kontrol edilir ve eğer geçerli ise giriş işlemi otomatik olarak tamamlanır.

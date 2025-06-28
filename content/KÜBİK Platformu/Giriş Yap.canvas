@@ -23,7 +23,17 @@
 		{"id":"65307c0572499503","type":"text","text":"password_utils.py","x":360,"y":235,"width":250,"height":60},
 		{"id":"e4eba074fb6fa18f","type":"text","text":"Evet","x":180,"y":340,"width":125,"height":60,"color":"4"},
 		{"id":"48be5e477a50861f","type":"text","text":"Hayır","x":423,"y":760,"width":124,"height":60,"color":"1"},
-		{"id":"4cbbb16f67d7d7a1","type":"text","text":"Flutter shared_prefs ve session storage","x":-540,"y":-300,"width":250,"height":60}
+		{"id":"4cbbb16f67d7d7a1","type":"text","text":"Flutter shared_prefs ve session storage","x":-540,"y":-300,"width":250,"height":60},
+		{
+			"id":"b819909fecb4f3fa",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1520,
+			"y":155,
+			"width":260,
+			"height":100
+		}
 	],
 	"edges":[
 		{"id":"2184cf81bc137b08","toFloating":false,"fromNode":"ef77fa9c4f010d06","fromSide":"top","toNode":"01d9b94033436d33","toSide":"bottom","color":"5","label":"Girilen Bilgiler"},
