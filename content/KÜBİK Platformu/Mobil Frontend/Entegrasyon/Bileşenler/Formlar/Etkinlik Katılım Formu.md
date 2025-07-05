@@ -1,0 +1,1 @@
+[[Etkinlik Detay Ekranı]]'ndan doldurulur

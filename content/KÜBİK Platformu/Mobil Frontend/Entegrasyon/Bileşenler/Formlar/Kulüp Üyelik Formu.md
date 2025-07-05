@@ -1,0 +1,1 @@
+[[Kulüp Detay Ekranı]]'ndan doldurulur

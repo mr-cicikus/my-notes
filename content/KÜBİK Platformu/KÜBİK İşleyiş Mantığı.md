@@ -7,3 +7,5 @@ Backend teorik olarak 4'ü Python, 2'si SQL olmak üzere 6 parçadan oluşmaktad
 
 Flutter frontend'imizdeki yapılacak her eylemin backend'ten geçmesini sağlamalıyız. Bunun için `main.py`'de FastAPI ile **API endpoint** kurmalıyız. 
 Örnek olarak: http://127.0.0.1:8000/login, burada `/login` bir endpoint'tur. Bir kullanıcı [[Başlangıç Ekranı]]'nda giriş yapmak için **Giriş Yap** düğmesine bastığında Flutter (main.dart), `http` üzerinden `127.0.0.1:8000` adresinde çalışmakta olan main.py ile iletişime geçecek ve aynı şekilde yine `http` üzerinden yanıt alacaktır.
+
+![[genel diagram.png]]

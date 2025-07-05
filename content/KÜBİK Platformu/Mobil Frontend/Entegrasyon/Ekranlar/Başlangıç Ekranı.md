@@ -1,7 +1,10 @@
 ---
 
 ---
-- [ ] Tamamlanacaklar: [[Frontend'te Yapılacaklar]] , 1. Başlık
+- [ ] Uygulama başlangıcında [[JWT (JSON Web Token)]] ile otomatik giriş denemesi
+- [ ] Giriş Yap Düğmesi, text kutuları ve /login endpoint'e bağlanması
+- [ ] Kayıt Ol Düğmesi, text kutuları ve /register endpoint'e bağlanması
+- [ ] Ekranın genel tasarımı (logo, yazı, renk vb.)
 ---
 # 0. Uygulama Başlangıcı
 

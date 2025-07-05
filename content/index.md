@@ -9,7 +9,7 @@ Hoş geldiniz.
 [[KÜBİK İşleyiş Şeması.canvas|KÜBİK İşleyiş Şeması]]
 [[KÜBİK İşleyiş Mantığı]]
 [[Flutter Dosya Düzeni]]
-[[Frontend'te Yapılacaklar]]
+[[Teknik Yol Haritası - Entegrasyon Sıralaması]]
 [[Ana Ekran]]
 [[Başlangıç Ekranı]]
 [[Backend Dosya Düzeni]]

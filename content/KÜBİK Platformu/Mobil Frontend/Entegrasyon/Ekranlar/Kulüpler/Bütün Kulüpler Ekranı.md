@@ -1,0 +1,1 @@
+[[get_all_clubs]] endpoint'i ile veri tabanındaki bütün kulüpleri alıp gösterir. Kulüplerin [[Kulüp Detay Ekranı]]'na yönlendirme, üyelik için [[Kulüp Üyelik Formu]]'nu gösterme ve [[Takip Sistemi]]'nden takip etme gibi seçenekleri sunar.
