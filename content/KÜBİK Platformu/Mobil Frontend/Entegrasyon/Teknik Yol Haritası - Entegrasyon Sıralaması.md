@@ -1,7 +1,9 @@
 - [ ] Yukarıdan aşağı => sırasıyla yapılmalı
 - [ ] Soldan sağa => sıra fark etmez
 
-## [[Başlangıç Ekranı]] 1-2-3. Aşamalar
+## [[Başlangıç Ekranı]] 1-2. Aşamalar
+==Frontend tamamlandı==
+
 --- 
 ## [[Ana Ekran]] 1-2. Aşamalar -- [[Profil Ekranı]] 1. Aşama
 
@@ -27,4 +29,6 @@
 ---
 ## [[Duyurular Ekranı]]  -- [[Profil Ekranı]] 2-3. Aşamalar
 ---
-## [[Duyuru Detay Ekranı]] -- [[Admin Ekranı]]  -- [[Ayarlar Ekranı]] 2. Aşama
+## [[Duyuru Detay Ekranı]] -- [[Admin Ekranı]]  -- [[Ayarlar Ekranı]] 2. Aşama -- [[Başlangıç Ekranı]] 3. Aşama
+
+
