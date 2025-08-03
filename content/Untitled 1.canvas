@@ -1,76 +1,6 @@
 {
 	"nodes":[
-		{"id":"2273d3cc5e4b1bc8","type":"group","x":-280,"y":-280,"width":1440,"height":4040,"label":"Öncelik sırası (yukarıdan aşağı)"},
-		{
-			"id":"57e2150170b60d28",
-			"type":"text",
-			"text":"İlk önce dil, sonra tema ayarları gösterilmeli, daha sonra kullanım kılavuzu",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":1200,
-			"width":260,
-			"height":130
-		},
-		{
-			"id":"5a7e396392dc929d",
-			"type":"text",
-			"text":"video veya interaktif tutorial şeklinde olabilir",
-			"styleAttributes":{"textAlign":"center"},
-			"x":840,
-			"y":1230,
-			"width":260,
-			"height":70
-		},
-		{
-			"id":"6e093d5069bf4b58",
-			"type":"text",
-			"text":"Siber Güvenlik",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":905,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"37686cb7f5547193",
-			"type":"text",
-			"text":"Pentesting Denemeleri",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1040,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"c8b673dfd26f03a1",
-			"type":"text",
-			"text":"Cloudflare (sunucu için)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":780,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a1016c2783008448",
-			"type":"text",
-			"text":"Bütün Erkanlarda Auth Guard (sadece aktif giriş (user session) oldukça açılma)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":890,
-			"width":260,
-			"height":90
-		},
-		{
-			"id":"6dd4dada97386bea",
-			"type":"text",
-			"text":"Renk Teması (Karanlık/Aydınlık/Sistem)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":510,
-			"width":260,
-			"height":60
-		},
+		{"id":"2273d3cc5e4b1bc8","type":"group","x":-280,"y":-280,"width":1440,"height":5480,"label":"Öncelik sırası (yukarıdan aşağı)"},
 		{
 			"id":"4d156db95ac8d11d",
 			"type":"text",
@@ -78,56 +8,6 @@
 			"styleAttributes":{"textAlign":"center"},
 			"x":-200,
 			"y":640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"8230a43bba34a5d4",
-			"type":"text",
-			"text":"Duyuru, Etkinlik",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"fa22d25cf67498d3",
-			"type":"text",
-			"text":"Bütün Fonksiyonları Tamamlama",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":-130,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"ef568b59fe8b9a1e",
-			"type":"text",
-			"text":"Güzellik Bakımı",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":-40,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"c0449721b4091b94",
-			"type":"text",
-			"text":"Kulüp Üyelik (veri tabanında opsiyonel link, yok ise ekran)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":100,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"4e6d5cfa0195a10e",
-			"type":"text",
-			"text":"Etkinlik (Veri tabanında link, düğmeye basınca yönlendirme)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":220,
 			"width":260,
 			"height":60
 		},
@@ -162,6 +42,56 @@
 			"height":60
 		},
 		{
+			"id":"6dd4dada97386bea",
+			"type":"text",
+			"text":"Renk Teması (Karanlık/Aydınlık/Sistem)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":510,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8230a43bba34a5d4",
+			"type":"text",
+			"text":"Duyuru, Etkinlik",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fa22d25cf67498d3",
+			"type":"text",
+			"text":"Bütün Fonksiyonları Tamamlama",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":-130,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"ef568b59fe8b9a1e",
+			"type":"text",
+			"text":"Güzellik Bakımı",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":-40,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"4e6d5cfa0195a10e",
+			"type":"text",
+			"text":"Etkinlik (Veri tabanında link, düğmeye basınca yönlendirme)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":220,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"b0d032d548f35151",
 			"type":"text",
 			"text":"Adminlik Kontrolleri",
@@ -182,132 +112,12 @@
 			"height":60
 		},
 		{
-			"id":"a58148faf0779daa",
+			"id":"c0449721b4091b94",
 			"type":"text",
-			"text":"Uygulamanın ilk açılışında küçük bir kullanım kılavuzu, ilk ayarları yapma",
+			"text":"Kulüp Üyelik (veri tabanında opsiyonel link, yok ise ekran)",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":1235,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"e434e54edd8d9480",
-			"type":"text",
-			"text":"Kullanıcı Oryantasyonu \n(User Onboarding)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":1295,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"c0e35b6303f5e6c3",
-			"type":"text",
-			"text":"shared_preferences ile ilk açılışı takip etme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1325,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a319141fef1bc5e6",
-			"type":"text",
-			"text":"kullanım kılavuzunu video şeklinde ayarlar ekranından tekrar oynatma (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1425,
-			"width":260,
-			"height":95
-		},
-		{
-			"id":"f4ed4d3f5557ce49",
-			"type":"text",
-			"text":"Etkinlik Katılımı İçin Ödüllendirme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2455,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a55c5699f1c212ea",
-			"type":"text",
-			"text":"Formül Oluşturulacak",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":2515,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a1d0b63250ab48f8",
-			"type":"text",
-			"text":"MacOS (?) - Hazır Apple Developer hesabı varken bence olmalı",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3200,
-			"width":260,
-			"height":75
-		},
-		{
-			"id":"dfb1f087d9f647ff",
-			"type":"text",
-			"text":"Linux (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3315,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"2f82b590d84f3cf1",
-			"type":"text",
-			"text":"Windows (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3095,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"9201a4ecce169944",
-			"type":"text",
-			"text":"Reklam Başına Ödüllendirme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2575,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"ac16bff28249562d",
-			"type":"text",
-			"text":"Kulüp adminleri, üyelerini belli durumlarda ödüllendirmek için bizden KÜBİK Coin satın alabilir (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2675,
-			"width":260,
-			"height":120
-		},
-		{
-			"id":"8c8cbe7232b6a571",
-			"type":"text",
-			"text":"Yayınlamadan Hemen  Önce Tabletler İçin Tasarımsal Optimizasyon (Android tabletleri, iPadOS)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2040,
-			"width":470,
-			"height":60
-		},
-		{
-			"id":"33f5ace3bb9670c9",
-			"type":"text",
-			"text":"KÜBİK Coin",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":2515,
+			"y":100,
 			"width":260,
 			"height":60
 		},
@@ -317,109 +127,9 @@
 			"text":"# .\n# .\n# .",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
 			"x":-200,
-			"y":2835,
+			"y":3520,
 			"width":260,
 			"height":260
-		},
-		{
-			"id":"f80f5674d5fed24c",
-			"type":"text",
-			"text":"Google Play",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2160,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a78e5fb8a7cfa595",
-			"type":"text",
-			"text":"Minimum 12 kişilik, 14 gün süren test süreci",
-			"styleAttributes":{"textAlign":"center"},
-			"x":840,
-			"y":2160,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"972dfaeb1063e7b2",
-			"type":"text",
-			"text":"Yayınlama",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":2220,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"ebc0903f2e8107b5",
-			"type":"text",
-			"text":"App Store",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2280,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"6ce05857b9fc1d28",
-			"type":"text",
-			"text":"Developer hesabı açılacak, 100 dolar ödencek",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":2280,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"cf1a25f2a7d5e201",
-			"type":"text",
-			"text":"Developer hesabı açılacak, 25 dolar ödencek",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":2160,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"939855e683267830",
-			"type":"text",
-			"text":"Backend Testleri (Gelen/giden veri..)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1730,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"f873346cfd34ceb5",
-			"type":"text",
-			"text":"Genel  Testler",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":1730,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"56d36d183fe115da",
-			"type":"text",
-			"text":"Uygulama Testleri (Ekranlar, düğmeler...)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"c630af730dcf13a4",
-			"type":"text",
-			"text":"Sunucu Testleri (Veri sunma hızı, otomatik yük testleri...)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1840,
-			"width":260,
-			"height":60
 		},
 		{
 			"id":"95cb45f5b66eeb54",
@@ -427,7 +137,7 @@
 			"text":"Yayınlama 2",
 			"styleAttributes":{"textAlign":"center"},
 			"x":-200,
-			"y":3255,
+			"y":3940,
 			"width":260,
 			"height":60
 		},
@@ -437,7 +147,7 @@
 			"text":"Web (?)",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":3440,
+			"y":4125,
 			"width":260,
 			"height":60
 		},
@@ -447,9 +157,39 @@
 			"text":"Akıllı Saatler (Android, WatchOS) (?) - Direkt olarak Flutter desteği yok, ama mevcut API yerel uygulamalarla kullanılabilir",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":3560,
+			"y":4245,
 			"width":260,
 			"height":120
+		},
+		{
+			"id":"2f82b590d84f3cf1",
+			"type":"text",
+			"text":"Windows (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3780,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a1d0b63250ab48f8",
+			"type":"text",
+			"text":"MacOS (?) - Hazır Apple Developer hesabı varken bence olmalı",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3885,
+			"width":260,
+			"height":75
+		},
+		{
+			"id":"dfb1f087d9f647ff",
+			"type":"text",
+			"text":"Linux (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":4000,
+			"width":260,
+			"height":60
 		},
 		{
 			"id":"e29e2569ea154bb4",
@@ -457,8 +197,388 @@
 			"text":"Ama diğer PC platformları desteklenmeyecekse çok mantıklı değil, MacOS'ta iOS uygulamaları direkt olarak çalışır (Mac için build yapmadan)",
 			"styleAttributes":{"textAlign":"center"},
 			"x":500,
-			"y":3208,
+			"y":3893,
 			"width":540,
+			"height":60
+		},
+		{
+			"id":"f80f5674d5fed24c",
+			"type":"text",
+			"text":"Google Play",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2660,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"972dfaeb1063e7b2",
+			"type":"text",
+			"text":"Yayınlama",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":2720,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"ebc0903f2e8107b5",
+			"type":"text",
+			"text":"App Store",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2780,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8c8cbe7232b6a571",
+			"type":"text",
+			"text":"Yayınlamadan Hemen  Önce Tabletler İçin Tasarımsal Optimizasyon (Android tabletleri, iPadOS)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2540,
+			"width":470,
+			"height":60
+		},
+		{
+			"id":"a78e5fb8a7cfa595",
+			"type":"text",
+			"text":"Minimum 12 kişilik, 14 gün süren test süreci",
+			"styleAttributes":{"textAlign":"center"},
+			"x":840,
+			"y":2660,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6ce05857b9fc1d28",
+			"type":"text",
+			"text":"Developer hesabı açılacak, 100 dolar ödencek",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":2780,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"cf1a25f2a7d5e201",
+			"type":"text",
+			"text":"Developer hesabı açılacak, 25 dolar ödencek",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":2660,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c630af730dcf13a4",
+			"type":"text",
+			"text":"Sunucu Testleri (Veri sunma hızı, otomatik yük testleri...)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2340,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f4ed4d3f5557ce49",
+			"type":"text",
+			"text":"Etkinlik Katılımı İçin Ödüllendirme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3180,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a55c5699f1c212ea",
+			"type":"text",
+			"text":"Formül Oluşturulacak",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":3240,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9201a4ecce169944",
+			"type":"text",
+			"text":"Reklam Başına Ödüllendirme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3300,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"ac16bff28249562d",
+			"type":"text",
+			"text":"Kulüp adminleri, üyelerini belli durumlarda ödüllendirmek için bizden KÜBİK Coin satın alabilir (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3400,
+			"width":260,
+			"height":120
+		},
+		{
+			"id":"e434e54edd8d9480",
+			"type":"text",
+			"text":"Kullanıcı Oryantasyonu \n(User Onboarding)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":1795,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c0e35b6303f5e6c3",
+			"type":"text",
+			"text":"shared_preferences ile ilk açılışı takip etme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1825,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a319141fef1bc5e6",
+			"type":"text",
+			"text":"kullanım kılavuzunu video şeklinde ayarlar ekranından tekrar oynatma (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1925,
+			"width":260,
+			"height":95
+		},
+		{
+			"id":"56d36d183fe115da",
+			"type":"text",
+			"text":"Uygulama Testleri (Ekranlar, düğmeler...)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2140,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f873346cfd34ceb5",
+			"type":"text",
+			"text":"Genel  Testler",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":2230,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"939855e683267830",
+			"type":"text",
+			"text":"Backend Testleri (Gelen/giden veri..)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2230,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a1016c2783008448",
+			"type":"text",
+			"text":"Bütün Erkanlarda Auth Guard (sadece aktif giriş (user session) oldukça açılma)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1390,
+			"width":260,
+			"height":90
+		},
+		{
+			"id":"37686cb7f5547193",
+			"type":"text",
+			"text":"Pentesting Denemeleri",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1540,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"57e2150170b60d28",
+			"type":"text",
+			"text":"İlk önce dil, sonra tema ayarları gösterilmeli, daha sonra kullanım kılavuzu",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":1700,
+			"width":260,
+			"height":130
+		},
+		{
+			"id":"5a7e396392dc929d",
+			"type":"text",
+			"text":"video veya interaktif tutorial şeklinde olabilir",
+			"styleAttributes":{"textAlign":"center"},
+			"x":840,
+			"y":1730,
+			"width":260,
+			"height":70
+		},
+		{
+			"id":"a58148faf0779daa",
+			"type":"text",
+			"text":"Uygulamanın ilk açılışında küçük bir kullanım kılavuzu, ilk ayarları yapma",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1735,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6e093d5069bf4b58",
+			"type":"text",
+			"text":"Siber Güvenlik",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":1405,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"33f5ace3bb9670c9",
+			"type":"text",
+			"text":"KÜBİK Coin",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":3240,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"b58dc976fa29d932",
+			"type":"text",
+			"text":"Reklam Sistemi",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":3020,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c8b673dfd26f03a1",
+			"type":"text",
+			"text":"Cloudflare (sunucu için)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1280,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"42bcd37caca2fed3",
+			"type":"text",
+			"text":"Frontend",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1010,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"4e00073cb6cacae8",
+			"type":"text",
+			"text":"Backend",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":880,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"907fa2177392c72e",
+			"type":"text",
+			"text":"Yardımcı Sistemler",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":940,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"e0c715e74fdbc73c",
+			"type":"text",
+			"text":"Kulüp Aktifliğini Belirleme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":760,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"975f263b48ff41bd",
+			"type":"text",
+			"text":"Mail Doğrulama",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":880,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a173c81b9c8da852",
+			"type":"text",
+			"text":"Hesap Oluşturmada",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":820,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"50039c454d0afc04",
+			"type":"text",
+			"text":"Şifre Değiştirmede",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":940,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2e8c8a2c020a07e4",
+			"type":"text",
+			"text":"Duyuru Filtreleri (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1120,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a2a5ac13f55d0ebc",
+			"type":"text",
+			"text":"Başarışız Girişlerde Hesap Kilitleme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1000,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8ed121aa43ea65bf",
+			"type":"text",
+			"text":"Ve Mail İle Bildiri",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1060,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9d7ba99165b258f6",
+			"type":"text",
+			"text":"Kulüp Üye Listesini Sunma",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":-130,
+			"width":260,
 			"height":60
 		}
 	],
@@ -795,6 +915,106 @@
 			"fromNode":"a1d0b63250ab48f8",
 			"fromSide":"right",
 			"toNode":"e29e2569ea154bb4",
+			"toSide":"left"
+		},
+		{
+			"id":"e010b501f47c0bc9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"907fa2177392c72e",
+			"fromSide":"right",
+			"toNode":"4e00073cb6cacae8",
+			"toSide":"left"
+		},
+		{
+			"id":"cff5d721265923fa",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4e00073cb6cacae8",
+			"fromSide":"right",
+			"toNode":"e0c715e74fdbc73c",
+			"toSide":"left"
+		},
+		{
+			"id":"373eba9243b2d8f3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"907fa2177392c72e",
+			"fromSide":"right",
+			"toNode":"42bcd37caca2fed3",
+			"toSide":"left"
+		},
+		{
+			"id":"ce2f6e7ce6b163dc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"42bcd37caca2fed3",
+			"fromSide":"right",
+			"toNode":"2e8c8a2c020a07e4",
+			"toSide":"left"
+		},
+		{
+			"id":"326af3d7afaeee0b",
+			"styleAttributes":{"path":"dotted"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"4e00073cb6cacae8",
+			"fromSide":"right",
+			"toNode":"2e8c8a2c020a07e4",
+			"toSide":"left"
+		},
+		{
+			"id":"8a89a41d2844875d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4e00073cb6cacae8",
+			"fromSide":"right",
+			"toNode":"975f263b48ff41bd",
+			"toSide":"left"
+		},
+		{
+			"id":"951058ce5ac33b04",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"975f263b48ff41bd",
+			"fromSide":"right",
+			"toNode":"a173c81b9c8da852",
+			"toSide":"left"
+		},
+		{
+			"id":"99ca2d9daf9be304",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"975f263b48ff41bd",
+			"fromSide":"right",
+			"toNode":"50039c454d0afc04",
+			"toSide":"left"
+		},
+		{
+			"id":"c7b63adcfc9dbbe0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4e00073cb6cacae8",
+			"fromSide":"right",
+			"toNode":"a2a5ac13f55d0ebc",
+			"toSide":"left"
+		},
+		{
+			"id":"c55780e43642d313",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a2a5ac13f55d0ebc",
+			"fromSide":"right",
+			"toNode":"8ed121aa43ea65bf",
+			"toSide":"left"
+		},
+		{
+			"id":"eb69ccaeb5e8738f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fa22d25cf67498d3",
+			"fromSide":"right",
+			"toNode":"9d7ba99165b258f6",
 			"toSide":"left"
 		}
 	],
