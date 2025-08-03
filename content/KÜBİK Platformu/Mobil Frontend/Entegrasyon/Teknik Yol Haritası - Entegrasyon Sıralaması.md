@@ -1,8 +1,10 @@
 - [ ] Yukarıdan aşağı => sırasıyla yapılmalı
 - [ ] Soldan sağa => sıra fark etmez
 
-## [[Başlangıç Ekranı]] 1-2. Aşamalar
+## ~~[[Başlangıç Ekranı]] 1-2. Aşamalar~~ Tamamlandı
 ==Frontend tamamlandı==
+==Veri Tabanı tamamlandı==
+==Backend tamamlandı==
 
 --- 
 ## [[Ana Ekran]] 1-2. Aşamalar -- [[Profil Ekranı]] 1. Aşama
