@@ -1349,6 +1349,15 @@
 			"fromSide":"right",
 			"toNode":"f691eca38ddcfa2e",
 			"toSide":"left"
+		},
+		{
+			"id":"028217581d76b95b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6e093d5069bf4b58",
+			"fromSide":"right",
+			"toNode":"6498eb8ee8f35b37",
+			"toSide":"left"
 		}
 	],
 	"metadata":{
