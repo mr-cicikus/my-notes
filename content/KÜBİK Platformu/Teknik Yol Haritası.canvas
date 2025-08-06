@@ -558,28 +558,6 @@
 			"height":100
 		},
 		{
-			"id":"babe270c473681f6",
-			"type":"text",
-			"text":"Uygulama Açılışı",
-			"styleAttributes":{"textAlign":"center"},
-			"x":313,
-			"y":-310,
-			"width":100,
-			"height":185,
-			"color":"5"
-		},
-		{
-			"id":"bc68fa5fa69f1f86",
-			"type":"text",
-			"text":"SharedPreferences",
-			"styleAttributes":{"textAlign":"center"},
-			"x":313,
-			"y":-105,
-			"width":166,
-			"height":60,
-			"color":"5"
-		},
-		{
 			"id":"736573108291e8a1",
 			"type":"text",
 			"text":"password_utils.py ile bağlama",
@@ -589,40 +567,6 @@
 			"width":140,
 			"height":60,
 			"color":"4"
-		},
-		{
-			"id":"99650757bd16406e",
-			"type":"text",
-			"text":"Giriş Düğmesi",
-			"styleAttributes":{"textAlign":"center"},
-			"x":73,
-			"y":-225,
-			"width":80,
-			"height":80,
-			"color":"5"
-		},
-		{
-			"id":"2b27575f7d86b9bd",
-			"type":"text",
-			"text":"Kayıt Düğmesi",
-			"styleAttributes":{"textAlign":"center"},
-			"x":73,
-			"y":-125,
-			"width":80,
-			"height":80,
-			"color":"5"
-		},
-		{
-			"id":"7b4f64eaf5c4e7d1",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
-			"zIndex":46,
-			"x":3250,
-			"y":-885,
-			"width":360,
-			"height":145,
-			"color":"6"
 		},
 		{
 			"id":"b09c05535c0fe1be",
@@ -1008,17 +952,6 @@
 			"color":"5"
 		},
 		{
-			"id":"2ec8fa3aff2475ea",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":3280,
-			"y":-1760,
-			"width":300,
-			"height":200,
-			"color":"4"
-		},
-		{
 			"id":"bc09dd0261c35954",
 			"type":"text",
 			"text":"",
@@ -1050,72 +983,6 @@
 			"width":300,
 			"height":200,
 			"color":"4"
-		},
-		{
-			"id":"3f4281ce76e71b56",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center","shape":"database"},
-			"x":3300,
-			"y":-1220,
-			"width":260,
-			"height":210,
-			"color":"3"
-		},
-		{
-			"id":"13af2eda254e2e60",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3340,
-			"y":-2400,
-			"width":180,
-			"height":345,
-			"color":"5"
-		},
-		{
-			"id":"affcfadd3f87a861",
-			"type":"text",
-			"text":"Duyurular\n",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2320,
-			"y":31,
-			"width":120,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"1e84afd08983765a",
-			"type":"text",
-			"text":"Genel Takvim",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2320,
-			"y":-82,
-			"width":120,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"5fd557f06067f745",
-			"type":"text",
-			"text":"Takip Edilen Kulüpler",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2840,
-			"y":-212,
-			"width":120,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"06296ca52947eb71",
-			"type":"text",
-			"text":"Bütün Kulüpler",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2840,
-			"y":-140,
-			"width":120,
-			"height":60,
-			"color":"5"
 		},
 		{
 			"id":"d6635a52a56bc922",
@@ -1172,6 +1039,418 @@
 			"height":100
 		},
 		{
+			"id":"d6b929bb8c18cf9e",
+			"type":"text",
+			"text":"user_passwords tablo isim değişikliği?",
+			"styleAttributes":{"textAlign":"center","border":"dashed"},
+			"x":314,
+			"y":995,
+			"width":164,
+			"height":120,
+			"color":"3"
+		},
+		{
+			"id":"63961cc5efbd1aa9",
+			"type":"text",
+			"text":"jwt_token oluşturma",
+			"styleAttributes":{"textAlign":"center"},
+			"x":346,
+			"y":280,
+			"width":100,
+			"height":140,
+			"color":"4"
+		},
+		{
+			"id":"66709415a3fa8dde",
+			"type":"text",
+			"text":"verilerin ve farklı veri türlerinin performans testi",
+			"styleAttributes":{"textAlign":"center"},
+			"x":63,
+			"y":595,
+			"width":120,
+			"height":220,
+			"color":"3"
+		},
+		{
+			"id":"4cd073a545c30aac",
+			"type":"text",
+			"text":"jwt_token decode, protected endpoint",
+			"styleAttributes":{"textAlign":"center"},
+			"x":346,
+			"y":99,
+			"width":100,
+			"height":161,
+			"color":"4"
+		},
+		{"id":"7ee922c95b6e683b","type":"file","file":"KÜBİK Platformu/Server Backend/JWT (JSON Web Token).md","x":500,"y":110,"width":400,"height":620},
+		{
+			"id":"cfb74e68ee9e4898",
+			"type":"text",
+			"text":"# Ana Ekran ",
+			"styleAttributes":{
+				"textAlign":"center",
+				"border":null
+			},
+			"x":3520,
+			"y":-592,
+			"width":719,
+			"height":100
+		},
+		{
+			"id":"45724509b0104ad1",
+			"type":"text",
+			"text":"##### 3. Aşama",
+			"styleAttributes":{"textAlign":"center","shape":"document"},
+			"x":3520,
+			"y":-492,
+			"width":719,
+			"height":65
+		},
+		{
+			"id":"ad03b50e70446d91",
+			"type":"text",
+			"text":"Özel Takvim",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3587,
+			"y":-392,
+			"width":417,
+			"height":265,
+			"color":"5"
+		},
+		{
+			"id":"b8b758621d211819",
+			"type":"text",
+			"text":"##### 1. Aşama",
+			"styleAttributes":{"textAlign":"center","shape":"document"},
+			"x":-200,
+			"y":-480,
+			"width":147,
+			"height":65
+		},
+		{
+			"id":"a45e4c56b142f6b8",
+			"type":"text",
+			"text":"Özel takvim'e etkinlikleri gönderir",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3857,
+			"y":360,
+			"width":154,
+			"height":179,
+			"color":"4"
+		},
+		{
+			"id":"48b021f446f994e2",
+			"type":"text",
+			"text":"get_club_event",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3865,
+			"y":56,
+			"width":139,
+			"height":232,
+			"color":"4"
+		},
+		{
+			"id":"34225689ab7ad42c",
+			"type":"text",
+			"text":"get_user_active_clubs",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3559,
+			"y":58,
+			"width":201,
+			"height":102,
+			"color":"4"
+		},
+		{
+			"id":"445571093de456a3",
+			"type":"text",
+			"text":"get_user_followed_clubs",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3559,
+			"y":186,
+			"width":201,
+			"height":102,
+			"color":"4"
+		},
+		{"id":"8f0474bd6645a466","type":"file","file":"KÜBİK Platformu/Mobil Frontend/Entegrasyon/Teknik Yol Haritası - Entegrasyon Sıralaması.md","x":-163,"y":-2240,"width":1243,"height":1300},
+		{
+			"id":"4044aa4afb943e15",
+			"type":"text",
+			"text":"# Ana Ekran ",
+			"styleAttributes":{
+				"textAlign":"center",
+				"border":null
+			},
+			"zIndex":45,
+			"x":1880,
+			"y":-592,
+			"width":1520,
+			"height":100
+		},
+		{
+			"id":"be5cc0324c9e0b7a",
+			"type":"text",
+			"text":"# Başlangıç Ekranı",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-203,
+			"y":-580,
+			"width":679,
+			"height":100
+		},
+		{
+			"id":"96be6105f18cc915",
+			"type":"text",
+			"text":"##### 1. Aşama",
+			"styleAttributes":{"textAlign":"center","shape":"document"},
+			"x":1880,
+			"y":-492,
+			"width":610,
+			"height":65
+		},
+		{
+			"id":"babe270c473681f6",
+			"type":"text",
+			"text":"Uygulama Açılışı",
+			"styleAttributes":{"textAlign":"center"},
+			"x":313,
+			"y":-310,
+			"width":100,
+			"height":185,
+			"color":"5"
+		},
+		{
+			"id":"bc68fa5fa69f1f86",
+			"type":"text",
+			"text":"SharedPreferences",
+			"styleAttributes":{"textAlign":"center"},
+			"x":313,
+			"y":-105,
+			"width":166,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"99650757bd16406e",
+			"type":"text",
+			"text":"Giriş Düğmesi",
+			"styleAttributes":{"textAlign":"center"},
+			"x":73,
+			"y":-225,
+			"width":80,
+			"height":80,
+			"color":"5"
+		},
+		{
+			"id":"2b27575f7d86b9bd",
+			"type":"text",
+			"text":"Kayıt Düğmesi",
+			"styleAttributes":{"textAlign":"center"},
+			"x":73,
+			"y":-125,
+			"width":80,
+			"height":80,
+			"color":"5"
+		},
+		{
+			"id":"d1fe0c57aae73372",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
+			"zIndex":44,
+			"x":2490,
+			"y":-592,
+			"width":60,
+			"height":1760,
+			"color":"6"
+		},
+		{
+			"id":"c9e94d736cc14033",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
+			"zIndex":44,
+			"x":3400,
+			"y":-592,
+			"width":120,
+			"height":1760,
+			"color":"6"
+		},
+		{
+			"id":"7b4f64eaf5c4e7d1",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
+			"zIndex":46,
+			"x":3250,
+			"y":-885,
+			"width":360,
+			"height":145,
+			"color":"6"
+		},
+		{
+			"id":"2ec8fa3aff2475ea",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
+			"x":3280,
+			"y":-1760,
+			"width":300,
+			"height":200,
+			"color":"4"
+		},
+		{
+			"id":"346c34673a51964a",
+			"type":"text",
+			"text":"##### 2. Aşama",
+			"styleAttributes":{"textAlign":"center","shape":"document"},
+			"x":7,
+			"y":-480,
+			"width":213,
+			"height":65
+		},
+		{
+			"id":"8812fa5d548fddaf",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
+			"zIndex":48,
+			"x":220,
+			"y":-580,
+			"width":60,
+			"height":1760,
+			"color":"6"
+		},
+		{
+			"id":"c6623c4cfde5434f",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
+			"zIndex":48,
+			"x":-53,
+			"y":-580,
+			"width":60,
+			"height":1760,
+			"color":"6"
+		},
+		{
+			"id":"b27df7100c0d8ca4",
+			"type":"text",
+			"text":"##### 3. Aşama",
+			"styleAttributes":{"textAlign":"center","shape":"document"},
+			"x":280,
+			"y":-480,
+			"width":196,
+			"height":65
+		},
+		{
+			"id":"3f4281ce76e71b56",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center","shape":"database"},
+			"x":3300,
+			"y":-1220,
+			"width":260,
+			"height":210,
+			"color":"3"
+		},
+		{
+			"id":"13af2eda254e2e60",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3340,
+			"y":-2400,
+			"width":180,
+			"height":345,
+			"color":"5"
+		},
+		{
+			"id":"5fd557f06067f745",
+			"type":"text",
+			"text":"Takip Edilen Kulüpler",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2840,
+			"y":-212,
+			"width":120,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"06296ca52947eb71",
+			"type":"text",
+			"text":"Bütün Kulüpler",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2840,
+			"y":-140,
+			"width":120,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"f0cc667f6f215993",
+			"type":"text",
+			"text":"Kulüp Seçenekleri",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2595,
+			"y":-257,
+			"width":120,
+			"height":150,
+			"color":"5"
+		},
+		{
+			"id":"de460e8a8b480659",
+			"type":"text",
+			"text":"Aktif Kulüp",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2840,
+			"y":-285,
+			"width":120,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"474416da092c7e95",
+			"type":"text",
+			"text":"##### 2. Aşama",
+			"styleAttributes":{"textAlign":"center","shape":"document"},
+			"x":2550,
+			"y":-492,
+			"width":850,
+			"height":65
+		},
+		{
+			"id":"9ba03a72a142a1ca",
+			"type":"text",
+			"text":"Profil ve Ayar Seçenekleri",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2595,
+			"y":-377,
+			"width":365,
+			"height":67,
+			"color":"5"
+		},
+		{
+			"id":"affcfadd3f87a861",
+			"type":"text",
+			"text":"Duyurular\n",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2320,
+			"y":31,
+			"width":120,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"1e84afd08983765a",
+			"type":"text",
+			"text":"Genel Takvim",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2320,
+			"y":-82,
+			"width":120,
+			"height":60,
+			"color":"5"
+		},
+		{
 			"id":"733eadb360fb8485",
 			"type":"text",
 			"text":"Kontrol Tuşu",
@@ -1216,72 +1495,6 @@
 			"color":"5"
 		},
 		{
-			"id":"d6b929bb8c18cf9e",
-			"type":"text",
-			"text":"user_passwords tablo isim değişikliği?",
-			"styleAttributes":{"textAlign":"center","border":"dashed"},
-			"x":314,
-			"y":995,
-			"width":164,
-			"height":120,
-			"color":"3"
-		},
-		{
-			"id":"63961cc5efbd1aa9",
-			"type":"text",
-			"text":"jwt_token oluşturma",
-			"styleAttributes":{"textAlign":"center"},
-			"x":346,
-			"y":280,
-			"width":100,
-			"height":140,
-			"color":"4"
-		},
-		{
-			"id":"66709415a3fa8dde",
-			"type":"text",
-			"text":"verilerin ve farklı veri türlerinin performans testi",
-			"styleAttributes":{"textAlign":"center"},
-			"x":63,
-			"y":595,
-			"width":120,
-			"height":220,
-			"color":"3"
-		},
-		{
-			"id":"4cd073a545c30aac",
-			"type":"text",
-			"text":"jwt_token decode, protected endpoint",
-			"styleAttributes":{"textAlign":"center"},
-			"x":346,
-			"y":99,
-			"width":100,
-			"height":161,
-			"color":"4"
-		},
-		{
-			"id":"f0cc667f6f215993",
-			"type":"text",
-			"text":"Kulüp Seçenekleri",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2595,
-			"y":-257,
-			"width":120,
-			"height":150,
-			"color":"5"
-		},
-		{
-			"id":"de460e8a8b480659",
-			"type":"text",
-			"text":"Aktif Kulüp",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2840,
-			"y":-285,
-			"width":120,
-			"height":60,
-			"color":"5"
-		},
-		{
 			"id":"8e2bbd7c798b1952",
 			"type":"text",
 			"text":"Profil / Ayarlar",
@@ -1303,221 +1516,8 @@
 			"height":60,
 			"color":"5"
 		},
-		{"id":"7ee922c95b6e683b","type":"file","file":"KÜBİK Platformu/Server Backend/JWT (JSON Web Token).md","x":500,"y":110,"width":400,"height":620},
-		{
-			"id":"cfb74e68ee9e4898",
-			"type":"text",
-			"text":"# Ana Ekran ",
-			"styleAttributes":{
-				"textAlign":"center",
-				"border":null
-			},
-			"x":3520,
-			"y":-592,
-			"width":719,
-			"height":100
-		},
-		{
-			"id":"45724509b0104ad1",
-			"type":"text",
-			"text":"##### 3. Aşama",
-			"styleAttributes":{"textAlign":"center","shape":"document"},
-			"x":3520,
-			"y":-492,
-			"width":719,
-			"height":65
-		},
-		{
-			"id":"ad03b50e70446d91",
-			"type":"text",
-			"text":"Özel Takvim",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3587,
-			"y":-392,
-			"width":417,
-			"height":265,
-			"color":"5"
-		},
-		{
-			"id":"d1fe0c57aae73372",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
-			"zIndex":44,
-			"x":2490,
-			"y":-592,
-			"width":60,
-			"height":1760,
-			"color":"6"
-		},
-		{
-			"id":"c9e94d736cc14033",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
-			"zIndex":44,
-			"x":3400,
-			"y":-592,
-			"width":120,
-			"height":1760,
-			"color":"6"
-		},
-		{
-			"id":"b8b758621d211819",
-			"type":"text",
-			"text":"##### 1. Aşama",
-			"styleAttributes":{"textAlign":"center","shape":"document"},
-			"x":-200,
-			"y":-480,
-			"width":147,
-			"height":65
-		},
-		{
-			"id":"346c34673a51964a",
-			"type":"text",
-			"text":"##### 2. Aşama",
-			"styleAttributes":{"textAlign":"center","shape":"document"},
-			"x":7,
-			"y":-480,
-			"width":213,
-			"height":65
-		},
-		{
-			"id":"a45e4c56b142f6b8",
-			"type":"text",
-			"text":"Özel takvim'e etkinlikleri gönderir",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3857,
-			"y":360,
-			"width":154,
-			"height":179,
-			"color":"4"
-		},
-		{
-			"id":"48b021f446f994e2",
-			"type":"text",
-			"text":"get_club_event",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3865,
-			"y":56,
-			"width":139,
-			"height":232,
-			"color":"4"
-		},
-		{
-			"id":"474416da092c7e95",
-			"type":"text",
-			"text":"##### 2. Aşama",
-			"styleAttributes":{"textAlign":"center","shape":"document"},
-			"x":2550,
-			"y":-492,
-			"width":850,
-			"height":65
-		},
-		{
-			"id":"34225689ab7ad42c",
-			"type":"text",
-			"text":"get_user_active_clubs",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3559,
-			"y":58,
-			"width":201,
-			"height":102,
-			"color":"4"
-		},
-		{
-			"id":"445571093de456a3",
-			"type":"text",
-			"text":"get_user_followed_clubs",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3559,
-			"y":186,
-			"width":201,
-			"height":102,
-			"color":"4"
-		},
-		{
-			"id":"9ba03a72a142a1ca",
-			"type":"text",
-			"text":"Profil ve Ayar Seçenekleri",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2595,
-			"y":-377,
-			"width":365,
-			"height":67,
-			"color":"5"
-		},
-		{"id":"8f0474bd6645a466","type":"file","file":"KÜBİK Platformu/Mobil Frontend/Entegrasyon/Teknik Yol Haritası - Entegrasyon Sıralaması.md","x":-163,"y":-2240,"width":1243,"height":1300},
 		{"id":"668232de41b1c2bf","type":"file","file":"Giriş Yap 1.png","x":940,"y":-360,"width":544,"height":315},
-		{
-			"id":"4044aa4afb943e15",
-			"type":"text",
-			"text":"# Ana Ekran ",
-			"styleAttributes":{
-				"textAlign":"center",
-				"border":null
-			},
-			"zIndex":45,
-			"x":1880,
-			"y":-592,
-			"width":1520,
-			"height":100
-		},
-		{
-			"id":"8812fa5d548fddaf",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
-			"zIndex":48,
-			"x":220,
-			"y":-580,
-			"width":60,
-			"height":1760,
-			"color":"6"
-		},
-		{
-			"id":"c6623c4cfde5434f",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process","border":"invisible"},
-			"zIndex":48,
-			"x":-53,
-			"y":-580,
-			"width":60,
-			"height":1760,
-			"color":"6"
-		},
-		{
-			"id":"be5cc0324c9e0b7a",
-			"type":"text",
-			"text":"# Başlangıç Ekranı",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-203,
-			"y":-580,
-			"width":679,
-			"height":100
-		},
-		{
-			"id":"b27df7100c0d8ca4",
-			"type":"text",
-			"text":"##### 3. Aşama",
-			"styleAttributes":{"textAlign":"center","shape":"document"},
-			"x":280,
-			"y":-480,
-			"width":196,
-			"height":65
-		},
-		{"id":"0e07dccccd123e5d","type":"file","file":"Screenshot 2025-06-27 at 00.16.41.png","x":500,"y":-360,"width":382,"height":315},
-		{
-			"id":"96be6105f18cc915",
-			"type":"text",
-			"text":"##### 1. Aşama",
-			"styleAttributes":{"textAlign":"center","shape":"document"},
-			"x":1880,
-			"y":-492,
-			"width":610,
-			"height":65
-		}
+		{"id":"0e07dccccd123e5d","type":"file","file":"Screenshot 2025-06-27 at 00.16.41.png","x":500,"y":-360,"width":382,"height":315}
 	],
 	"edges":[
 		{
