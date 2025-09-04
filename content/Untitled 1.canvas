@@ -2,78 +2,556 @@
 	"nodes":[
 		{"id":"2273d3cc5e4b1bc8","type":"group","x":-280,"y":-280,"width":1440,"height":5880,"label":"Öncelik sırası (yukarıdan aşağı)"},
 		{
-			"id":"c0449721b4091b94",
+			"id":"efd627ff3ea88a06",
 			"type":"text",
-			"text":"Kulüp Üyelik",
+			"text":"Siber Güvenlik 2",
 			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":100,
+			"x":-200,
+			"y":5440,
 			"width":260,
 			"height":60
 		},
 		{
-			"id":"ef568b59fe8b9a1e",
+			"id":"a21787253afd0a83",
 			"type":"text",
-			"text":"~~Güzellik Bakımı~~",
+			"text":"Akıllı Saatler (Android, WatchOS) (?) - Direkt olarak Flutter desteği yok, ama mevcut API yerel uygulamalarla kullanılabilir",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":-40,
+			"y":5105,
+			"width":260,
+			"height":120
+		},
+		{
+			"id":"6dbec12ad3f70421",
+			"type":"text",
+			"text":"Web (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":4985,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"13bcda571cf3b934",
+			"type":"text",
+			"text":"Python -> NodeJS?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":5440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6e093d5069bf4b58",
+			"type":"text",
+			"text":"Siber Güvenlik",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":1585,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"1b4fb1c1e80559d6",
+			"type":"text",
+			"text":"~~.env~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1820,
 			"width":260,
 			"height":60,
 			"color":"4"
 		},
 		{
-			"id":"fa22d25cf67498d3",
+			"id":"bd7796f000f295e1",
 			"type":"text",
-			"text":"~~Bütün Fonksiyonları Tamamlama~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":-130,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"9d7ba99165b258f6",
-			"type":"text",
-			"text":"==Kulüp Üye Listesini Sunma==\nGüncelleme: Askıya alındı",
+			"text":"~~JWT_Secret~~",
 			"styleAttributes":{"textAlign":"center"},
 			"x":520,
-			"y":-130,
+			"y":1748,
 			"width":260,
 			"height":60,
-			"color":"2"
+			"color":"4"
 		},
 		{
-			"id":"cc157ab1cb1c0163",
+			"id":"1ddf5032fdac5c03",
 			"type":"text",
-			"text":"Etkinlik Saati Yaklaşıyor",
+			"text":"Güvenlik Açığı Araştırılacak",
 			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":700,
+			"x":520,
+			"y":1628,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"5"
 		},
 		{
-			"id":"6dd4dada97386bea",
+			"id":"93c375f5bfe4fe91",
 			"type":"text",
-			"text":"Renk Teması (Karanlık/Aydınlık/Sistem)",
+			"text":"Postgres 17 -> 15?",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":470,
+			"y":1628,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"5"
 		},
 		{
-			"id":"8230a43bba34a5d4",
+			"id":"c8b673dfd26f03a1",
 			"type":"text",
-			"text":"Yeni Etkinlik, Duyuru\nGüncelleme: Apple Developer hesabı olana kadar askıya alındı.",
+			"text":"~~Cloudflare (sunucu için)~~",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":580,
+			"y":1240,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"ea4c31314d25863a",
+			"type":"text",
+			"text":"~~Port Değişimi (30k-65536) (sondaki olmaz)~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1340,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"158fce8c2eecc05e",
+			"type":"text",
+			"text":"--dart-define ile api_service.dart'taki baseURL'yi compile etmek",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1420,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"a1016c2783008448",
+			"type":"text",
+			"text":"~~Bütün Ekranlarda Auth Guard (sadece aktif giriş (user session) oldukça açılma)~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1525,
 			"width":260,
 			"height":90,
+			"color":"4"
+		},
+		{
+			"id":"5585451e8b1d38a2",
+			"type":"text",
+			"text":"Mavi Bloklar: galiba Siber Güvenlik 2'ye ertelenebilir",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1368,
+			"width":260,
+			"height":185,
+			"color":"5"
+		},
+		{
+			"id":"75193e3df9ae26e2",
+			"type":"text",
+			"text":"~~Kullanıcı IPlerini Hashleyip Loglama~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2108,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"d81c205067200d2a",
+			"type":"text",
+			"text":"Ve belki de endpointleri hackleme denemeleri",
+			"styleAttributes":{"textAlign":"center"},
+			"x":970,
+			"y":2161,
+			"width":130,
+			"height":118
+		},
+		{
+			"id":"c64172d4f5350298",
+			"type":"text",
+			"text":"Endpoint prefix (API_PREFIX=/v1) (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1976,
+			"width":260,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"a706fed50eef00d2",
+			"type":"text",
+			"text":"Endpoint şifresi?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":840,
+			"y":1976,
+			"width":260,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"a00f9b22fe3ac464",
+			"type":"text",
+			"text":"~~Platform İçi Her Adımı Veri Tabanında Loglama (özellikle post requestlerini)~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2200,
+			"width":260,
+			"height":80,
+			"color":"4"
+		},
+		{
+			"id":"31e7dd65d4ad5cf4",
+			"type":"text",
+			"text":"~~SECURITY_DB_URL~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1890,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"91536a5b7ae1c297",
+			"type":"text",
+			"text":"~~Cloudflare Sızma Testleri (direkt bağlantı oluyor mu)~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2190,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"9571e5961b4a3881",
+			"type":"text",
+			"text":"~~MAIN_DB_URL~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1820,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"ac990f219452baa0",
+			"type":"text",
+			"text":"Python Variable Obfuscation?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2006,
+			"width":260,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"42bcd37caca2fed3",
+			"type":"text",
+			"text":"Frontend",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1010,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8ed121aa43ea65bf",
+			"type":"text",
+			"text":"Ve Mail İle Bildiri",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1060,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"7ec1cd0d1cb3eb36",
+			"type":"text",
+			"text":"~~Cloudflare Exit Node dışındaki bütün IPler bloklanacak~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1240,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"2e8c8a2c020a07e4",
+			"type":"text",
+			"text":"~~Duyuru Filtreleri~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1140,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"bf37731d02163e90",
+			"type":"text",
+			"text":"Etkinlik Geçmişi",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1060,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"cf92ec8d5f6e2928",
+			"type":"text",
+			"text":"SQL Tablo Adları Değişecek (yerini komik şeyler alacak ehehehe)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1920,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"b7b3356d8431fbe3",
+			"type":"text",
+			"text":"Endpoint Erişim Şifresi?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1718,
+			"width":260,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"911676eef785de95",
+			"type":"text",
+			"text":"~~.env Tarama / Internet Erişimi Denemesi (.env bir linkten açılabiliyorsa paris'e dayak atılabilir)~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2265,
+			"width":280,
+			"height":85,
+			"color":"4"
+		},
+		{
+			"id":"f691eca38ddcfa2e",
+			"type":"text",
+			"text":"Diğer Requestleri Loglama (uvicorn output'tan çekilebilir)\nGüncelleme: Gerekli olmayabilir",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2320,
+			"width":260,
+			"height":80,
 			"color":"2"
+		},
+		{
+			"id":"b29bc71fed80b816",
+			"type":"text",
+			"text":"SQL Injection",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2368,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"37686cb7f5547193",
+			"type":"text",
+			"text":"Pentesting Denemeleri",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"d7e55e60cf1a6cd0",
+			"type":"text",
+			"text":"Token Manipulation",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"e434e54edd8d9480",
+			"type":"text",
+			"text":"Kullanıcı Oryantasyonu \n(User Onboarding)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":2655,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a58148faf0779daa",
+			"type":"text",
+			"text":"Uygulamanın ilk açılışında küçük bir kullanım kılavuzu, ilk ayarları yapma",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2595,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"57e2150170b60d28",
+			"type":"text",
+			"text":"İlk önce dil, sonra tema ayarları gösterilmeli, daha sonra kullanım kılavuzu",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":2560,
+			"width":260,
+			"height":130
+		},
+		{
+			"id":"5a7e396392dc929d",
+			"type":"text",
+			"text":"video veya interaktif tutorial şeklinde olabilir",
+			"styleAttributes":{"textAlign":"center"},
+			"x":840,
+			"y":2590,
+			"width":260,
+			"height":70
+		},
+		{
+			"id":"a319141fef1bc5e6",
+			"type":"text",
+			"text":"kullanım kılavuzunu video şeklinde ayarlar ekranından tekrar oynatma (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2785,
+			"width":260,
+			"height":95
+		},
+		{
+			"id":"c0e35b6303f5e6c3",
+			"type":"text",
+			"text":"shared_preferences ile ilk açılışı takip etme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2685,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"56d36d183fe115da",
+			"type":"text",
+			"text":"Uygulama Testleri (Ekranlar, düğmeler...)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3000,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f873346cfd34ceb5",
+			"type":"text",
+			"text":"Genel  Testler",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":3090,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c630af730dcf13a4",
+			"type":"text",
+			"text":"Sunucu Testleri (Veri sunma hızı, otomatik yük testleri...)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3200,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"939855e683267830",
+			"type":"text",
+			"text":"Backend Testleri (Gelen/giden veri..)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3090,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8c8cbe7232b6a571",
+			"type":"text",
+			"text":"Yayınlamadan Hemen  Önce Tabletler İçin Tasarımsal Optimizasyon (Android tabletleri, iPadOS)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3400,
+			"width":470,
+			"height":60
+		},
+		{
+			"id":"972dfaeb1063e7b2",
+			"type":"text",
+			"text":"Yayınlama",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":3580,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"cf1a25f2a7d5e201",
+			"type":"text",
+			"text":"~~Developer hesabı açılacak, 25 dolar ödencek~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":3520,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"f80f5674d5fed24c",
+			"type":"text",
+			"text":"Google Play",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3520,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a78e5fb8a7cfa595",
+			"type":"text",
+			"text":"Minimum 12 kişilik, 14 gün süren test süreci",
+			"styleAttributes":{"textAlign":"center"},
+			"x":840,
+			"y":3520,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"ebc0903f2e8107b5",
+			"type":"text",
+			"text":"App Store",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6ce05857b9fc1d28",
+			"type":"text",
+			"text":"Developer hesabı açılacak, 100 dolar ödencek",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":3640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"b58dc976fa29d932",
+			"type":"text",
+			"text":"Reklam Sistemi",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":3880,
+			"width":260,
+			"height":60
 		},
 		{
 			"id":"f4ed4d3f5557ce49",
@@ -106,22 +584,102 @@
 			"height":60
 		},
 		{
-			"id":"b58dc976fa29d932",
+			"id":"9201a4ecce169944",
 			"type":"text",
-			"text":"Reklam Sistemi",
+			"text":"Reklam Başına Ödüllendirme",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":3880,
+			"x":160,
+			"y":4160,
 			"width":260,
 			"height":60
 		},
 		{
-			"id":"f873346cfd34ceb5",
+			"id":"ac16bff28249562d",
 			"type":"text",
-			"text":"Genel  Testler",
+			"text":"Kulüp adminleri, üyelerini belli durumlarda ödüllendirmek için bizden KÜBİK Coin satın alabilir (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":4260,
+			"width":260,
+			"height":120
+		},
+		{
+			"id":"bd81bf82b010f566",
+			"type":"text",
+			"text":"# .\n# .\n# .",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-200,
+			"y":4380,
+			"width":260,
+			"height":260
+		},
+		{
+			"id":"a1d0b63250ab48f8",
+			"type":"text",
+			"text":"MacOS (?) - Hazır Apple Developer hesabı varken bence olmalı",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":4745,
+			"width":260,
+			"height":75
+		},
+		{
+			"id":"e29e2569ea154bb4",
+			"type":"text",
+			"text":"Ama diğer PC platformları desteklenmeyecekse çok mantıklı değil, MacOS'ta iOS uygulamaları direkt olarak çalışır (Mac için build yapmadan)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":4753,
+			"width":540,
+			"height":60
+		},
+		{
+			"id":"2f82b590d84f3cf1",
+			"type":"text",
+			"text":"Windows (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":4640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"95cb45f5b66eeb54",
+			"type":"text",
+			"text":"Yayınlama 2",
 			"styleAttributes":{"textAlign":"center"},
 			"x":-200,
-			"y":3090,
+			"y":4800,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"dfb1f087d9f647ff",
+			"type":"text",
+			"text":"Linux (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":4860,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"50039c454d0afc04",
+			"type":"text",
+			"text":"Şifre Değiştirmede",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":940,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a2a5ac13f55d0ebc",
+			"type":"text",
+			"text":"Başarışız Girişlerde Hesap Kilitleme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":970,
 			"width":260,
 			"height":60
 		},
@@ -132,16 +690,6 @@
 			"styleAttributes":{"textAlign":"center"},
 			"x":-200,
 			"y":940,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"4e00073cb6cacae8",
-			"type":"text",
-			"text":"Backend",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":880,
 			"width":260,
 			"height":60
 		},
@@ -168,156 +716,118 @@
 			"color":"4"
 		},
 		{
+			"id":"e0c715e74fdbc73c",
+			"type":"text",
+			"text":"Kulüp Aktifliğini Belirleme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":790,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"cc157ab1cb1c0163",
+			"type":"text",
+			"text":"~~Etkinlik Saati Yaklaşıyor~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":700,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"4e00073cb6cacae8",
+			"type":"text",
+			"text":"Backend",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":880,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8230a43bba34a5d4",
+			"type":"text",
+			"text":"Yeni Etkinlik, Duyuru\nGüncelleme: Apple Developer hesabı olana kadar askıya alındı.",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":580,
+			"width":260,
+			"height":90,
+			"color":"2"
+		},
+		{
+			"id":"4d156db95ac8d11d",
+			"type":"text",
+			"text":"Bildirimler",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"762843dd03f59c46",
+			"type":"text",
+			"text":"Not: Etkinlik bildirimleri Apple Developer hesabı olana kadar sadece local olarak yapılabilir.",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":565,
+			"width":260,
+			"height":75,
+			"color":"4"
+		},
+		{
+			"id":"6dd4dada97386bea",
+			"type":"text",
+			"text":"Renk Teması (Karanlık/Aydınlık/Sistem)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":470,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"b2e8d3d282b9142c",
+			"type":"text",
+			"text":"User Page ve Ayarlar Ekranları",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":410,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"47ebe370f0026509",
+			"type":"text",
+			"text":"Bütün Ekranları Bitirme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":380,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"4e6d5cfa0195a10e",
 			"type":"text",
-			"text":"Etkinlik",
+			"text":"~~Etkinlik~~",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
 			"y":220,
 			"width":260,
-			"height":60
-		},
-		{
-			"id":"972dfaeb1063e7b2",
-			"type":"text",
-			"text":"Yayınlama",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":3580,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"8c8cbe7232b6a571",
-			"type":"text",
-			"text":"Yayınlamadan Hemen  Önce Tabletler İçin Tasarımsal Optimizasyon (Android tabletleri, iPadOS)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3400,
-			"width":470,
-			"height":60
-		},
-		{
-			"id":"c630af730dcf13a4",
-			"type":"text",
-			"text":"Sunucu Testleri (Veri sunma hızı, otomatik yük testleri...)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3200,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"939855e683267830",
-			"type":"text",
-			"text":"Backend Testleri (Gelen/giden veri..)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3090,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"56d36d183fe115da",
-			"type":"text",
-			"text":"Uygulama Testleri (Ekranlar, düğmeler...)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3000,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a319141fef1bc5e6",
-			"type":"text",
-			"text":"kullanım kılavuzunu video şeklinde ayarlar ekranından tekrar oynatma (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2785,
-			"width":260,
-			"height":95
-		},
-		{
-			"id":"c0e35b6303f5e6c3",
-			"type":"text",
-			"text":"shared_preferences ile ilk açılışı takip etme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2685,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"e434e54edd8d9480",
-			"type":"text",
-			"text":"Kullanıcı Oryantasyonu \n(User Onboarding)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":2655,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"c8b673dfd26f03a1",
-			"type":"text",
-			"text":"~~Cloudflare (sunucu için)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1240,
-			"width":260,
 			"height":60,
 			"color":"4"
 		},
 		{
-			"id":"42bcd37caca2fed3",
+			"id":"c0449721b4091b94",
 			"type":"text",
-			"text":"Frontend",
+			"text":"Kulüp Üyelik",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":1010,
+			"y":100,
 			"width":260,
 			"height":60
-		},
-		{
-			"id":"b29bc71fed80b816",
-			"type":"text",
-			"text":"SQL Injection",
-			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2368,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"911676eef785de95",
-			"type":"text",
-			"text":".env Tarama / Internet Erişimi Denemesi (.env bir linkten açılabiliyorsa paris'e dayak atılabilir)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2265,
-			"width":280,
-			"height":85
-		},
-		{
-			"id":"6e093d5069bf4b58",
-			"type":"text",
-			"text":"Siber Güvenlik",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":1585,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"ea4c31314d25863a",
-			"type":"text",
-			"text":"~~Port Değişimi (30k-65536) (sondaki olmaz)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1340,
-			"width":260,
-			"height":60,
-			"color":"4"
 		},
 		{
 			"id":"0045c930bf79e36e",
@@ -328,6 +838,49 @@
 			"y":160,
 			"width":260,
 			"height":60
+		},
+		{
+			"id":"622da732f1ac7c2d",
+			"type":"text",
+			"text":"Ekranlar olacak, ilerleyen zamanda arka planda adminlerin vereceği formu otomatik doldurma",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":138,
+			"width":260,
+			"height":105
+		},
+		{
+			"id":"9d7ba99165b258f6",
+			"type":"text",
+			"text":"==Kulüp Üye Listesini Sunma==\nGüncelleme: Askıya alındı",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":-130,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"ef568b59fe8b9a1e",
+			"type":"text",
+			"text":"~~Güzellik Bakımı~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":-40,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"fa22d25cf67498d3",
+			"type":"text",
+			"text":"~~Bütün Fonksiyonları Tamamlama~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":-130,
+			"width":260,
+			"height":60,
+			"color":"4"
 		},
 		{
 			"id":"1cdeaa31e5d556bc",
@@ -349,537 +902,6 @@
 			"width":260,
 			"height":60,
 			"color":"4"
-		},
-		{
-			"id":"b2e8d3d282b9142c",
-			"type":"text",
-			"text":"User Page ve Ayarlar Ekranları",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":410,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"4d156db95ac8d11d",
-			"type":"text",
-			"text":"Bildirimler",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"ebc0903f2e8107b5",
-			"type":"text",
-			"text":"App Store",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"6ce05857b9fc1d28",
-			"type":"text",
-			"text":"Developer hesabı açılacak, 100 dolar ödencek",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":3640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a78e5fb8a7cfa595",
-			"type":"text",
-			"text":"Minimum 12 kişilik, 14 gün süren test süreci",
-			"styleAttributes":{"textAlign":"center"},
-			"x":840,
-			"y":3520,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"cf1a25f2a7d5e201",
-			"type":"text",
-			"text":"~~Developer hesabı açılacak, 25 dolar ödencek~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":3520,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"f80f5674d5fed24c",
-			"type":"text",
-			"text":"Google Play",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3520,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"5a7e396392dc929d",
-			"type":"text",
-			"text":"video veya interaktif tutorial şeklinde olabilir",
-			"styleAttributes":{"textAlign":"center"},
-			"x":840,
-			"y":2590,
-			"width":260,
-			"height":70
-		},
-		{
-			"id":"57e2150170b60d28",
-			"type":"text",
-			"text":"İlk önce dil, sonra tema ayarları gösterilmeli, daha sonra kullanım kılavuzu",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":2560,
-			"width":260,
-			"height":130
-		},
-		{
-			"id":"d7e55e60cf1a6cd0",
-			"type":"text",
-			"text":"Token Manipulation",
-			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"37686cb7f5547193",
-			"type":"text",
-			"text":"Pentesting Denemeleri",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"f691eca38ddcfa2e",
-			"type":"text",
-			"text":"Diğer Requestleri Loglama (uvicorn output'tan çekilebilir)\nGüncelleme: Gerekli olmayabilir",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2320,
-			"width":260,
-			"height":80,
-			"color":"2"
-		},
-		{
-			"id":"efd627ff3ea88a06",
-			"type":"text",
-			"text":"Siber Güvenlik 2",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":5440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"13bcda571cf3b934",
-			"type":"text",
-			"text":"Python -> NodeJS?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":5440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a21787253afd0a83",
-			"type":"text",
-			"text":"Akıllı Saatler (Android, WatchOS) (?) - Direkt olarak Flutter desteği yok, ama mevcut API yerel uygulamalarla kullanılabilir",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":5105,
-			"width":260,
-			"height":120
-		},
-		{
-			"id":"6dbec12ad3f70421",
-			"type":"text",
-			"text":"Web (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":4985,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a1d0b63250ab48f8",
-			"type":"text",
-			"text":"MacOS (?) - Hazır Apple Developer hesabı varken bence olmalı",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":4745,
-			"width":260,
-			"height":75
-		},
-		{
-			"id":"95cb45f5b66eeb54",
-			"type":"text",
-			"text":"Yayınlama 2",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":4800,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"dfb1f087d9f647ff",
-			"type":"text",
-			"text":"Linux (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":4860,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"e29e2569ea154bb4",
-			"type":"text",
-			"text":"Ama diğer PC platformları desteklenmeyecekse çok mantıklı değil, MacOS'ta iOS uygulamaları direkt olarak çalışır (Mac için build yapmadan)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":4753,
-			"width":540,
-			"height":60
-		},
-		{
-			"id":"9201a4ecce169944",
-			"type":"text",
-			"text":"Reklam Başına Ödüllendirme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":4160,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a58148faf0779daa",
-			"type":"text",
-			"text":"Uygulamanın ilk açılışında küçük bir kullanım kılavuzu, ilk ayarları yapma",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2595,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"bd81bf82b010f566",
-			"type":"text",
-			"text":"# .\n# .\n# .",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-200,
-			"y":4380,
-			"width":260,
-			"height":260
-		},
-		{
-			"id":"2f82b590d84f3cf1",
-			"type":"text",
-			"text":"Windows (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":4640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"ac16bff28249562d",
-			"type":"text",
-			"text":"Kulüp adminleri, üyelerini belli durumlarda ödüllendirmek için bizden KÜBİK Coin satın alabilir (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":4260,
-			"width":260,
-			"height":120
-		},
-		{
-			"id":"91536a5b7ae1c297",
-			"type":"text",
-			"text":"~~Cloudflare Sızma Testleri (direkt bağlantı oluyor mu)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2190,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"d81c205067200d2a",
-			"type":"text",
-			"text":"Ve belki de endpointleri hackleme denemeleri",
-			"styleAttributes":{"textAlign":"center"},
-			"x":970,
-			"y":2161,
-			"width":130,
-			"height":118
-		},
-		{
-			"id":"c64172d4f5350298",
-			"type":"text",
-			"text":"Endpoint prefix (API_PREFIX=/v1) (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1976,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a706fed50eef00d2",
-			"type":"text",
-			"text":"Endpoint şifresi?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":840,
-			"y":1976,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"50039c454d0afc04",
-			"type":"text",
-			"text":"Şifre Değiştirmede",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":940,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a00f9b22fe3ac464",
-			"type":"text",
-			"text":"~~Platform İçi Her Adımı Veri Tabanında Loglama (özellikle post requestlerini)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2200,
-			"width":260,
-			"height":80,
-			"color":"4"
-		},
-		{
-			"id":"75193e3df9ae26e2",
-			"type":"text",
-			"text":"~~Kullanıcı IPlerini Hashleyip Loglama~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2108,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"ac990f219452baa0",
-			"type":"text",
-			"text":"Python Variable Obfuscation?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2006,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"cf92ec8d5f6e2928",
-			"type":"text",
-			"text":"SQL Tablo Adları Değişecek (yerini komik şeyler alacak ehehehe)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1920,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"31e7dd65d4ad5cf4",
-			"type":"text",
-			"text":"~~SECURITY_DB_URL~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1890,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"1b4fb1c1e80559d6",
-			"type":"text",
-			"text":"~~.env~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1820,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"9571e5961b4a3881",
-			"type":"text",
-			"text":"~~MAIN_DB_URL~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1820,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"bd7796f000f295e1",
-			"type":"text",
-			"text":"~~JWT_Secret~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1748,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"158fce8c2eecc05e",
-			"type":"text",
-			"text":"--dart-define ile api_service.dart'taki baseURL'yi compile etmek",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1420,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"8ed121aa43ea65bf",
-			"type":"text",
-			"text":"Ve Mail İle Bildiri",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1060,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"b7b3356d8431fbe3",
-			"type":"text",
-			"text":"Endpoint Erişim Şifresi?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1718,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"93c375f5bfe4fe91",
-			"type":"text",
-			"text":"Postgres 17 -> 15?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1628,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"1ddf5032fdac5c03",
-			"type":"text",
-			"text":"Güvenlik Açığı Araştırılacak",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1628,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a1016c2783008448",
-			"type":"text",
-			"text":"~~Bütün Ekranlarda Auth Guard (sadece aktif giriş (user session) oldukça açılma)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1525,
-			"width":260,
-			"height":90,
-			"color":"4"
-		},
-		{
-			"id":"7ec1cd0d1cb3eb36",
-			"type":"text",
-			"text":"~~Cloudflare Exit Node dışındaki bütün IPler bloklanacak~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1240,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"622da732f1ac7c2d",
-			"type":"text",
-			"text":"Ekranlar olacak, ilerleyen zamanda arka planda adminlerin vereceği formu otomatik doldurma",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":138,
-			"width":260,
-			"height":105
-		},
-		{
-			"id":"47ebe370f0026509",
-			"type":"text",
-			"text":"Bütün Ekranları Bitirme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":380,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"e0c715e74fdbc73c",
-			"type":"text",
-			"text":"Kulüp Aktifliğini Belirleme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":790,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"762843dd03f59c46",
-			"type":"text",
-			"text":"Not: Etkinlik bildirimleri Apple Developer hesabı olana kadar sadece local olarak yapılabilir.",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":565,
-			"width":260,
-			"height":75
-		},
-		{
-			"id":"2e8c8a2c020a07e4",
-			"type":"text",
-			"text":"Duyuru Filtreleri (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1140,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a2a5ac13f55d0ebc",
-			"type":"text",
-			"text":"Başarışız Girişlerde Hesap Kilitleme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":970,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"bf37731d02163e90",
-			"type":"text",
-			"text":"Etkinlik Geçmişi",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1060,
-			"width":260,
-			"height":60
 		}
 	],
 	"edges":[
@@ -1200,13 +1222,14 @@
 		},
 		{
 			"id":"011665c65042cf87",
-			"styleAttributes":{"pathfindingMethod":"square"},
+			"styleAttributes":{"pathfindingMethod":"square","path":"dotted"},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"972dfaeb1063e7b2",
 			"fromSide":"left",
 			"toNode":"95cb45f5b66eeb54",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"1fa37cf908c31ccb",
@@ -1356,12 +1379,14 @@
 		},
 		{
 			"id":"64388742eff2af0c",
-			"styleAttributes":{"pathfindingMethod":"square"},
+			"styleAttributes":{"pathfindingMethod":"square","path":"long-dashed"},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"6e093d5069bf4b58",
 			"fromSide":"left",
 			"toNode":"efd627ff3ea88a06",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"5"
 		},
 		{
 			"id":"d3d2066ef383d1a7",
@@ -1568,15 +1593,6 @@
 			"fromNode":"4e6d5cfa0195a10e",
 			"fromSide":"right",
 			"toNode":"622da732f1ac7c2d",
-			"toSide":"left"
-		},
-		{
-			"id":"c52cddb6beb02252",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"42bcd37caca2fed3",
-			"fromSide":"right",
-			"toNode":"bf37731d02163e90",
 			"toSide":"left"
 		},
 		{
