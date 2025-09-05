@@ -19,7 +19,7 @@
 ==Backend tamamlandı==
 
 ---
-## [[Bütün Kulüpler Ekranı]] -- [[Ayarlar Ekranı]] 1. Aşama
+## ~~[[Bütün Kulüpler Ekranı]] -- [[Ayarlar Ekranı]] 1. Aşama~~
 
 > [!NOTE]
 >[[Ayarlar Ekranı]] 2. aşama bildirim sistemine değer (örn duyurular) bir özellik gelene kadar atlanmalıdır.
@@ -31,7 +31,11 @@
 ==Backend tamamlandı==
 
 ---
-## [[Takip Edilen Kulüpler]]
+## ~~[[Takip Edilen Kulüpler]]~~
+==Frontend tamamlandı==
+==Veri Tabanı tamamlandı==
+==Backend tamamlandı==
+
 ---
 ## ~~[[Aktif Kulüpler Ekranı]]~~
 ==Frontend tamamlandı==
