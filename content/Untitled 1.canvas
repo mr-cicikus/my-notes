@@ -2,233 +2,6 @@
 	"nodes":[
 		{"id":"2273d3cc5e4b1bc8","type":"group","x":-280,"y":-280,"width":1440,"height":5880,"label":"Öncelik sırası (yukarıdan aşağı)"},
 		{
-			"id":"c8b673dfd26f03a1",
-			"type":"text",
-			"text":"~~Cloudflare (sunucu için)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1240,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"ea4c31314d25863a",
-			"type":"text",
-			"text":"~~Port Değişimi (30k-65536) (sondaki olmaz)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1340,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"911676eef785de95",
-			"type":"text",
-			"text":"~~.env Tarama / Internet Erişimi Denemesi (.env bir linkten açılabiliyorsa paris'e dayak atılabilir)~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2265,
-			"width":280,
-			"height":85,
-			"color":"4"
-		},
-		{
-			"id":"b29bc71fed80b816",
-			"type":"text",
-			"text":"SQL Injection",
-			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2368,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"d7e55e60cf1a6cd0",
-			"type":"text",
-			"text":"Token Manipulation",
-			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"c0e35b6303f5e6c3",
-			"type":"text",
-			"text":"shared_preferences ile ilk açılışı takip etme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2685,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"907fa2177392c72e",
-			"type":"text",
-			"text":"Yardımcı Sistemler",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":940,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"4d156db95ac8d11d",
-			"type":"text",
-			"text":"Bildirimler",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"b2e8d3d282b9142c",
-			"type":"text",
-			"text":"User Page ve Ayarlar Ekranları",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":410,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"0045c930bf79e36e",
-			"type":"text",
-			"text":"Formlar",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":160,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"42bcd37caca2fed3",
-			"type":"text",
-			"text":"Frontend",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":1010,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"57e2150170b60d28",
-			"type":"text",
-			"text":"İlk önce dil, sonra tema ayarları gösterilmeli, daha sonra kullanım kılavuzu",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":2560,
-			"width":260,
-			"height":130
-		},
-		{
-			"id":"5a7e396392dc929d",
-			"type":"text",
-			"text":"video veya interaktif tutorial şeklinde olabilir",
-			"styleAttributes":{"textAlign":"center"},
-			"x":840,
-			"y":2590,
-			"width":260,
-			"height":70
-		},
-		{
-			"id":"e0c715e74fdbc73c",
-			"type":"text",
-			"text":"Kulüp Aktifliğini Belirleme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":790,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"cc157ab1cb1c0163",
-			"type":"text",
-			"text":"~~Etkinlik Saati Yaklaşıyor~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":700,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"4e00073cb6cacae8",
-			"type":"text",
-			"text":"Backend",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":880,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"8230a43bba34a5d4",
-			"type":"text",
-			"text":"Yeni Etkinlik, Duyuru\nGüncelleme: Apple Developer hesabı olana kadar askıya alındı.",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":580,
-			"width":260,
-			"height":90,
-			"color":"2"
-		},
-		{
-			"id":"762843dd03f59c46",
-			"type":"text",
-			"text":"Not: Etkinlik bildirimleri Apple Developer hesabı olana kadar sadece local olarak yapılabilir.",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":565,
-			"width":260,
-			"height":75,
-			"color":"4"
-		},
-		{
-			"id":"47ebe370f0026509",
-			"type":"text",
-			"text":"Bütün Ekranları Bitirme",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":380,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"4e6d5cfa0195a10e",
-			"type":"text",
-			"text":"~~Etkinlik~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":220,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"6e093d5069bf4b58",
-			"type":"text",
-			"text":"Siber Güvenlik",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":1585,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"e434e54edd8d9480",
-			"type":"text",
-			"text":"Kullanıcı Oryantasyonu \n(User Onboarding)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":2655,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"f873346cfd34ceb5",
 			"type":"text",
 			"text":"Genel  Testler",
@@ -247,26 +20,6 @@
 			"y":3400,
 			"width":470,
 			"height":60
-		},
-		{
-			"id":"6dd4dada97386bea",
-			"type":"text",
-			"text":"Renk Teması (Karanlık/Aydınlık/Sistem)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":470,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"622da732f1ac7c2d",
-			"type":"text",
-			"text":"Ekranlar olacak, ilerleyen zamanda arka planda adminlerin vereceği formu otomatik doldurma",
-			"styleAttributes":{"textAlign":"center"},
-			"x":500,
-			"y":138,
-			"width":260,
-			"height":105
 		},
 		{
 			"id":"9d7ba99165b258f6",
@@ -369,16 +122,6 @@
 			"x":500,
 			"y":4753,
 			"width":540,
-			"height":60
-		},
-		{
-			"id":"c0449721b4091b94",
-			"type":"text",
-			"text":"Kulüp Üyelik",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":100,
-			"width":260,
 			"height":60
 		},
 		{
@@ -514,53 +257,12 @@
 			"height":60
 		},
 		{
-			"id":"ac990f219452baa0",
-			"type":"text",
-			"text":"Python Variable Obfuscation?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2006,
-			"width":260,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"a319141fef1bc5e6",
-			"type":"text",
-			"text":"kullanım kılavuzunu video şeklinde ayarlar ekranından tekrar oynatma (?)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":2785,
-			"width":260,
-			"height":95
-		},
-		{
-			"id":"56d36d183fe115da",
-			"type":"text",
-			"text":"Uygulama Testleri (Ekranlar, düğmeler...)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3000,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"c630af730dcf13a4",
 			"type":"text",
 			"text":"Sunucu Testleri (Veri sunma hızı, otomatik yük testleri...)",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
 			"y":3200,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"939855e683267830",
-			"type":"text",
-			"text":"Backend Testleri (Gelen/giden veri..)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":160,
-			"y":3090,
 			"width":260,
 			"height":60
 		},
@@ -603,6 +305,27 @@
 			"y":4800,
 			"width":260,
 			"height":60
+		},
+		{
+			"id":"5a7e396392dc929d",
+			"type":"text",
+			"text":"video veya interaktif tutorial şeklinde olabilir",
+			"styleAttributes":{"textAlign":"center"},
+			"x":840,
+			"y":2590,
+			"width":260,
+			"height":70
+		},
+		{
+			"id":"ac990f219452baa0",
+			"type":"text",
+			"text":"Python Variable Obfuscation?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2006,
+			"width":260,
+			"height":60,
+			"color":"5"
 		},
 		{
 			"id":"75193e3df9ae26e2",
@@ -659,23 +382,105 @@
 			"color":"4"
 		},
 		{
-			"id":"31e7dd65d4ad5cf4",
-			"type":"text",
-			"text":"~~SECURITY_DB_URL~~",
-			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1890,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
 			"id":"9571e5961b4a3881",
 			"type":"text",
 			"text":"~~MAIN_DB_URL~~",
 			"styleAttributes":{"textAlign":"center"},
 			"x":520,
 			"y":1820,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"1b4fb1c1e80559d6",
+			"type":"text",
+			"text":"~~.env~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1820,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"cf92ec8d5f6e2928",
+			"type":"text",
+			"text":"SQL Tablo Adları Değişecek (yerini komik şeyler alacak ehehehe)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":1920,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"911676eef785de95",
+			"type":"text",
+			"text":"~~.env Tarama / Internet Erişimi Denemesi (.env bir linkten açılabiliyorsa paris'e dayak atılabilir)~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2265,
+			"width":280,
+			"height":85,
+			"color":"4"
+		},
+		{
+			"id":"b29bc71fed80b816",
+			"type":"text",
+			"text":"SQL Injection",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2368,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"d7e55e60cf1a6cd0",
+			"type":"text",
+			"text":"Token Manipulation",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a319141fef1bc5e6",
+			"type":"text",
+			"text":"kullanım kılavuzunu video şeklinde ayarlar ekranından tekrar oynatma (?)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2785,
+			"width":260,
+			"height":95
+		},
+		{
+			"id":"56d36d183fe115da",
+			"type":"text",
+			"text":"Uygulama Testleri (Ekranlar, düğmeler...)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3000,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"939855e683267830",
+			"type":"text",
+			"text":"Backend Testleri (Gelen/giden veri..)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":3090,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"31e7dd65d4ad5cf4",
+			"type":"text",
+			"text":"~~SECURITY_DB_URL~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1890,
 			"width":260,
 			"height":60,
 			"color":"4"
@@ -690,6 +495,37 @@
 			"width":260,
 			"height":80,
 			"color":"2"
+		},
+		{
+			"id":"91536a5b7ae1c297",
+			"type":"text",
+			"text":"~~Cloudflare Sızma Testleri (direkt bağlantı oluyor mu)~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":630,
+			"y":2190,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"c0e35b6303f5e6c3",
+			"type":"text",
+			"text":"shared_preferences ile ilk açılışı takip etme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":2685,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"57e2150170b60d28",
+			"type":"text",
+			"text":"İlk önce dil, sonra tema ayarları gösterilmeli, daha sonra kullanım kılavuzu",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":2560,
+			"width":260,
+			"height":130
 		},
 		{
 			"id":"37686cb7f5547193",
@@ -712,37 +548,36 @@
 			"height":60
 		},
 		{
-			"id":"1ddf5032fdac5c03",
+			"id":"e434e54edd8d9480",
 			"type":"text",
-			"text":"Güvenlik Açığı Araştırılacak",
+			"text":"Kullanıcı Oryantasyonu \n(User Onboarding)",
 			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1628,
+			"x":-200,
+			"y":2655,
 			"width":260,
-			"height":60,
-			"color":"5"
+			"height":60
 		},
 		{
-			"id":"91536a5b7ae1c297",
+			"id":"ea4c31314d25863a",
 			"type":"text",
-			"text":"~~Cloudflare Sızma Testleri (direkt bağlantı oluyor mu)~~",
+			"text":"~~Port Değişimi (30k-65536) (sondaki olmaz)~~",
 			"styleAttributes":{"textAlign":"center"},
-			"x":630,
-			"y":2190,
+			"x":160,
+			"y":1340,
 			"width":260,
 			"height":60,
 			"color":"4"
 		},
 		{
-			"id":"8ed121aa43ea65bf",
+			"id":"c8b673dfd26f03a1",
 			"type":"text",
-			"text":"Ve Mail İle Bildiri\nGüncelleme: Limitimiz olduğu için askıya alacağım sanırım",
+			"text":"~~Cloudflare (sunucu için)~~",
 			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1060,
+			"x":160,
+			"y":1240,
 			"width":260,
-			"height":110,
-			"color":"2"
+			"height":60,
+			"color":"4"
 		},
 		{
 			"id":"7ec1cd0d1cb3eb36",
@@ -767,22 +602,34 @@
 			"color":"4"
 		},
 		{
+			"id":"8ed121aa43ea65bf",
+			"type":"text",
+			"text":"Ve Mail İle Bildiri\nGüncelleme: Limitimiz olduğu için askıya alacağım sanırım",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1060,
+			"width":260,
+			"height":110,
+			"color":"2"
+		},
+		{
 			"id":"bf37731d02163e90",
 			"type":"text",
-			"text":"Etkinlik Geçmişi",
+			"text":"~~Etkinlik Geçmişi~~",
 			"styleAttributes":{"textAlign":"center"},
 			"x":520,
 			"y":1060,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"4"
 		},
 		{
-			"id":"50039c454d0afc04",
+			"id":"42bcd37caca2fed3",
 			"type":"text",
-			"text":"Şifre Değiştirmede",
+			"text":"Frontend",
 			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":940,
+			"x":160,
+			"y":1010,
 			"width":260,
 			"height":60
 		},
@@ -808,6 +655,89 @@
 			"color":"4"
 		},
 		{
+			"id":"e0c715e74fdbc73c",
+			"type":"text",
+			"text":"~~Kulüp Aktifliğini Belirleme~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":790,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"4e6d5cfa0195a10e",
+			"type":"text",
+			"text":"~~Etkinlik~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":220,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"622da732f1ac7c2d",
+			"type":"text",
+			"text":"Ekranlar olacak, ilerleyen zamanda arka planda adminlerin vereceği formu otomatik doldurma",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":138,
+			"width":260,
+			"height":105
+		},
+		{
+			"id":"c0449721b4091b94",
+			"type":"text",
+			"text":"Kulüp Üyelik",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":100,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"5585451e8b1d38a2",
+			"type":"text",
+			"text":"Mavi Bloklar: galiba Siber Güvenlik 2'ye ertelenebilir",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1368,
+			"width":260,
+			"height":185,
+			"color":"5"
+		},
+		{
+			"id":"907fa2177392c72e",
+			"type":"text",
+			"text":"Yardımcı Sistemler",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":940,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"50039c454d0afc04",
+			"type":"text",
+			"text":"Şifre Değiştirmede",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":940,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"4e00073cb6cacae8",
+			"type":"text",
+			"text":"Backend",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":880,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"a173c81b9c8da852",
 			"type":"text",
 			"text":"~~Hesap Oluşturmada~~",
@@ -819,37 +749,87 @@
 			"color":"4"
 		},
 		{
-			"id":"1b4fb1c1e80559d6",
+			"id":"cc157ab1cb1c0163",
 			"type":"text",
-			"text":"~~.env~~",
+			"text":"~~Etkinlik Saati Yaklaşıyor~~",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":1820,
+			"y":700,
 			"width":260,
 			"height":60,
 			"color":"4"
 		},
 		{
-			"id":"bd7796f000f295e1",
+			"id":"4d156db95ac8d11d",
 			"type":"text",
-			"text":"~~JWT_Secret~~",
+			"text":"Bildirimler",
 			"styleAttributes":{"textAlign":"center"},
-			"x":520,
-			"y":1748,
+			"x":-200,
+			"y":640,
 			"width":260,
-			"height":60,
+			"height":60
+		},
+		{
+			"id":"0045c930bf79e36e",
+			"type":"text",
+			"text":"Formlar",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":160,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8230a43bba34a5d4",
+			"type":"text",
+			"text":"Yeni Etkinlik, Duyuru\nGüncelleme: Apple Developer hesabı olana kadar askıya alındı.",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":580,
+			"width":260,
+			"height":90,
+			"color":"2"
+		},
+		{
+			"id":"762843dd03f59c46",
+			"type":"text",
+			"text":"Not: Etkinlik bildirimleri Apple Developer hesabı olana kadar sadece local olarak yapılabilir.",
+			"styleAttributes":{"textAlign":"center"},
+			"x":500,
+			"y":565,
+			"width":260,
+			"height":75,
 			"color":"4"
 		},
 		{
-			"id":"93c375f5bfe4fe91",
+			"id":"6dd4dada97386bea",
 			"type":"text",
-			"text":"Postgres 17 -> 15?",
+			"text":"Renk Teması (Karanlık/Aydınlık/Sistem)",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":1628,
+			"y":470,
 			"width":260,
-			"height":60,
-			"color":"5"
+			"height":60
+		},
+		{
+			"id":"b2e8d3d282b9142c",
+			"type":"text",
+			"text":"User Page ve Ayarlar Ekranları",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":410,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"47ebe370f0026509",
+			"type":"text",
+			"text":"Bütün Ekranları Bitirme",
+			"styleAttributes":{"textAlign":"center"},
+			"x":160,
+			"y":380,
+			"width":260,
+			"height":60
 		},
 		{
 			"id":"158fce8c2eecc05e",
@@ -873,25 +853,36 @@
 			"color":"4"
 		},
 		{
-			"id":"5585451e8b1d38a2",
+			"id":"6e093d5069bf4b58",
 			"type":"text",
-			"text":"Mavi Bloklar: galiba Siber Güvenlik 2'ye ertelenebilir",
+			"text":"Siber Güvenlik",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":1585,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"1ddf5032fdac5c03",
+			"type":"text",
+			"text":"Güvenlik Açığı Araştırılacak",
 			"styleAttributes":{"textAlign":"center"},
 			"x":520,
-			"y":1368,
+			"y":1628,
 			"width":260,
-			"height":185,
+			"height":60,
 			"color":"5"
 		},
 		{
-			"id":"cf92ec8d5f6e2928",
+			"id":"93c375f5bfe4fe91",
 			"type":"text",
-			"text":"SQL Tablo Adları Değişecek (yerini komik şeyler alacak ehehehe)",
+			"text":"Postgres 17 -> 15?",
 			"styleAttributes":{"textAlign":"center"},
 			"x":160,
-			"y":1920,
+			"y":1628,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"5"
 		},
 		{
 			"id":"b7b3356d8431fbe3",
@@ -903,6 +894,17 @@
 			"width":260,
 			"height":60,
 			"color":"5"
+		},
+		{
+			"id":"bd7796f000f295e1",
+			"type":"text",
+			"text":"~~JWT_Secret~~",
+			"styleAttributes":{"textAlign":"center"},
+			"x":520,
+			"y":1748,
+			"width":260,
+			"height":60,
+			"color":"4"
 		}
 	],
 	"edges":[
